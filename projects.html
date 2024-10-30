@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        /* Override the grid layout for this page */
+        main {
+            display: block; /* Change from grid to block for vertical stacking */
+        }
+        section {
+            margin-bottom: 20px; /* Add space between sections */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projects</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Estimating the Volume of the Right Ventricle from Echocardiography <a href="pics/projects_rv.html" target="_blank">(View Images)</a></h2>
+            <p>Oct 2019 – Feb 2022</p>
+            <ul>
+                <li>Collaborated with a research team at Yonsei University.</li>
+                <li>Developed raw data readers for echocardiography and CT scans.</li>
+                <li>Created realistic 3D models of the right ventricle from 2D echocardiographic images.</li>
+                <li>Constructed 3D models of the right ventricle from CT scans, considered the "ground truth."</li>
+                <li>Improved existing formulas for volume and ejection fraction, resulting in more accurate heart function estimates.</li>
+                <li>Framework: C++</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>AI Gatekeeper Solution for Coronary Artery Disease Screening using Heterogeneous Features</h2>
+            <p>May 2021 – May 2023</p>
+            <ul>
+                <li>Collaborated with researchers from Yonsei University and INFINITT Healthcare.</li>
+                <li>Developed deep learning models for classifying Coronary Artery Disease (CAD) using ECG data.</li>
+                <li>Created a transfer learning model for CAD classification based on an ischemic heart disease dataset.</li>
+                <li>Developed and managed XML and PDF parsers for ECG data.</li>
+                <li>Framework: Python, PyTorch</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Deep Learning-Based Early Detection and Diagnosis Platform for Heart Disease</h2>
+            <p>May 2023 – October 2023</p>
+            <ul>
+                <li>Collaborated with researchers at MedifarmSoft and SimPlatform.</li>
+                <li>Developed and trained ensemble models for arrhythmia classification based on ECG segmentation models.</li>
+                <li>Developed and managed XML and PDF parsers for ECG data.</li>
+                <li>Framework: Python, PyTorch</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Development of a Foundation Model for ECG Analysis</h2>
+            <p>March 2024 – Present</p>
+            <ul>
+                <li>Developed a foundation model for 12-lead ECG with state-of-the-art performance on various public benchmark datasets.</li>
+                <li>Applied the model to various ECG types, including single-lead and partial ECG, demonstrating high adaptability.</li>
+                <li>Accurately recovered key ECG features, including QRS duration, heart rate, gender, and age.</li>
+                <li>Used the model in an AFIB subclassification project (persistent vs. paroxysmal), achieving a 4.5% improvement in accuracy compared to our previous results.</li>
+                <li>Identified misdiagnosed cases in the AFIB subclassification project, improving the quality and reliability of the labels from SNU Hospital.</li>
+                <li>Framework: Python, PyTorch</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
